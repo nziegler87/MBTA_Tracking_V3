@@ -2,12 +2,6 @@ import React from "react";
 import {Marker, Popup} from "react-leaflet";
 import L from 'leaflet'
 
-const GREEN = "00843D"
-const ORANGE = "ED8B00"
-const RED = "DA291C"
-const BLUE = "003DA5"
-
-
 const color_mapping = new Map();
 color_mapping.set("00843D", "green");
 color_mapping.set("ED8B00", "orange");
