@@ -13,10 +13,12 @@ const find_direction = (train, train_data) => {
     return route.attributes.direction_destinations[train.attributes.direction_id]
 }
 
+/*
 const find_route_hex_color = (train, train_data) => {
     const route = train_data.included.find(route => route.id === train.relationships.route.data.id)
     return route.attributes.color
 }
+*/
 
 const find_route_text_color = (train, train_data) => {
     const route = train_data.included.find(route => route.id === train.relationships.route.data.id)
